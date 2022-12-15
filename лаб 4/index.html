@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab 4</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container__inner">
+				<form name="form1">
+					<p>Задание 2.1 (через Math.max)</p>
+					Число 1: <input type="text" size="5" name="num1">
+					Число 2: <input type="text" size="5" name="num2">
+					Число 3: <input type="text" size="5" name="num3">
+					Число 4: <input type="text" size="5" name="num4">
+					Число 5: <input type="text" size="5" name="num5">
+					<br><br>
+					<input type="button" value="Max value" onclick="maxValue1(form1)">
+					<input type="text" size="5" name="result1">
+					<input type="reset">
+				</form>
+				<br>
+				<form name="form2">
+					<p>Задание 2.2 (через if..else)</p>
+					Число 1: <input type="text" size="5" name="num6">
+					Число 2: <input type="text" size="5" name="num7">
+					Число 3: <input type="text" size="5" name="num8">
+					Число 4: <input type="text" size="5" name="num9">
+					Число 5: <input type="text" size="5" name="num10">
+					<br><br>
+					<input type="button" value="Max value" onclick="maxValue2(form2)">
+					<input type="text" size="5" name="result2">
+					<input type="reset">
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div class="container__inner">
+			<p>Задание 3</p>
+			<div class="triangle">
+				<input type="button" value="Посчитать стороны треугольника" onclick="triangle()">
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
